@@ -144,7 +144,7 @@ ConvState.prototype.printAnswers = function(answers, multiple){
         }
     }
     var diff = $(this.wrapper).find('div.options').height();
-    $(this.wrapper).find('#messages').css({paddingBottom: diff});
+    $(this.wrapper).find('#messages').css({paddingBottom: '1rem'});
 
 };
 ConvState.prototype.answerWith = function(answerText, answerObject) {
